@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Questrial&display=swap');
+@media screen and (max-width: 650px) {
+.section {
+    padding: 2em 1em;
+}
+#content {
+    padding-left: 30px!important;
+}
+}
+body {
+    font-family: 'Questrial', sans-serif;
+}
+#nav {
+    width: 15em;
+    background-image: url(/static/img/gear.png);
+    background-repeat: repeat;
+    background-size: 100px;
+    background-color: #00638c;
+    box-shadow: 0 0 5px 0 black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    z-index: 1;
+}
+nav {
+    position: fixed;
+    width: 15em;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 80%, rgba(39,170,225,0) 100%);
+    padding-bottom: 5em;
+}
+nav .uk-button {
+    background-color: #27AAE1;
+    margin: 10px 15px;
+    color: #FFF;
+    border-radius: 3px;
+}
+nav .apply {
+    background-color: #FFF;
+    color: #000;
+    border: 3px solid #000;
+    font-weight: bolder;
+    transition: border .5s;
+}
+nav .apply:hover {
+    background-color: #27AAE1;
+    color: #FFF;
+    border-width: 0px;
+    font-weight: normal;
+    transition: border-width 0.2s, background-color 0.2s;
+}
+
+#nav-hero {
+    height: 50vh;
+    width: 100%;
+}
+
+.nav-compartment {
+    background:linear-gradient(180deg, rgba(255,255,255,0) 0%, #00638c 15%, #00638c 85%, rgba(255,255,255,0) 100% );
+    text-align: center;
+    color: #FFF;
+    padding: 2em 0;
+    margin: auto;
+    margin-top: auto!important;
+    margin-bottom: auto!important;
+}
+
+#content {
+    background-color: #00638c;
+    color: #f7f7f7;
+    padding: 0;
+}
+#hero {
+    height: 80vh;
+    background: url(/static/img/group-photo.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+}
+#hero .text {
+    background: linear-gradient(180deg, rgba(0,0,0,0.4) 80%, rgba(0,0,0,0) 100%);
+    padding: 0 2em 3em;
+}
+#tagline {
+    font-size: 4em;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: 700;
+}
+hr {
+    border-top: 10px solid #27aae1!important;
+}
+.section {
+    margin: 2em;
+}
+.section.flex {
+    display: flex;
+}
+.section.flex > * {
+    margin: auto;
+}
+.section .title {
+    font-size: 2em;
+    color: #FFF;
+}
+.tagline {
+    color: #ffd18d;
+    margin-top: 2em;
+}
+.section p {
+    margin-top: 0;
+}
+#about-us-photos {
+    display: flex;
+}
+#about-us-photos img{
+    width: 25%;
+    margin: auto;
+}
+#join {
+    text-align: center;
+}
+#join img {
+    width: 30%;
+}
